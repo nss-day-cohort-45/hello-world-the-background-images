@@ -2,12 +2,14 @@
 @import 'navbar.css';
 @import 'logo.css';
 @import 'imageStyling.css';
+@import 'homepage.css';
 
 /*Typography
 --------------------------------------------------------------*/
 
 body {
 	background-color: slategray;
+	margin: 0;
 }
 button,
 input,

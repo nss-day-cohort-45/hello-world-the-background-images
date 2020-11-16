@@ -1,6 +1,7 @@
 .countries {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .country {
@@ -19,3 +20,6 @@
   border: solid black 3px;
 }
 
+a {
+  color: white;
+}
