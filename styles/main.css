@@ -43,3 +43,6 @@ h2 {
 .lists {
 	display: contents;
 }
+.label {
+	text-align: center;
+}
