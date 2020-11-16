@@ -1,0 +1,21 @@
+.countries {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.country {
+  border: solid black 3px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.country__img {
+  width: 300px;
+  margin: 20px;
+  border: solid black 3px;
+}
+
