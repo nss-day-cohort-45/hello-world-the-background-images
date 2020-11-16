@@ -3,12 +3,15 @@
 
 /*Typography
 --------------------------------------------------------------*/
-body,
+
+body {
+	background-color: slategray;
+}
 button,
 input,
 select,
 textarea {
-	color: #404040;
+	color: black;
 	font-family: "Comfortaa", Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.5;
@@ -17,4 +20,29 @@ textarea {
 h1,h2,h3,h4,h5,h6 {
   font-family: "Patua One", serif;
   letter-spacing: 2px;
+  border: 3px solid black;
+  background-color: #333333;
+}
+
+main {
+	display: flex;
+	justify-content: space-evenly;
+	background-color: slategray;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	color:white;
+}
+
+h2 {
+	color: white;
+	
+}
+.lists {
+	display: contents;
+}
+.label {
+	text-align: center;
 }
