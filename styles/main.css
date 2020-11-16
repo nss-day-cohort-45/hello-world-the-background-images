@@ -3,6 +3,7 @@
 
 /*Typography
 --------------------------------------------------------------*/
+
 body {
 	background-color: slategray;
 }
@@ -10,7 +11,7 @@ button,
 input,
 select,
 textarea {
-	color: silver;
+	color: black;
 	font-family: "Comfortaa", Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.5;
@@ -32,9 +33,13 @@ main {
 h1 {
 	display: flex;
 	justify-content: center;
+	color:white;
 }
 
+h2 {
+	color: white;
+	
+}
 .lists {
 	display: contents;
-	
 }
