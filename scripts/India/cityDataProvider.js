@@ -1,9 +1,9 @@
 const citiesCollection = [
 
-'Hyderabad', 'Bangalore', 'Chennai'
+'Hyderabad', 'Bangalore', 'Chennai', 'Mumbai', 'New Delhi', 'Kolkata'
 
 ];
 
 export function useCity() {
-    return citiesCollection
+    return citiesCollection.slice()
 }
