@@ -1,4 +1,5 @@
-export const Citizen = (citizen) => {
+export const Citizen = (citizens) => {
     return `
-    <li>${citizen}</li>`
+    <li>${citizens}</li>
+    `
 }

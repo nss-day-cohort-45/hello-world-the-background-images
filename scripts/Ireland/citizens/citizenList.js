@@ -6,7 +6,7 @@ export const CitizenList = () => {
     const allTheCitizens =useCitizen ()
 
     for (const citizens of allTheCitizens) {
-        const citizenHTML =Citizen(citizens)
-        contentElement.innerHTML+= citizenHTML
+        const citizensHTML = Citizen(citizens)
+        contentElement.innerHTML += citizensHTML
     }
 }

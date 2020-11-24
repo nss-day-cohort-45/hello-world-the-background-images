@@ -6,7 +6,7 @@ export const CityList = () => {
     const allTheCities =useCity ()
 
     for (const city of allTheCities) {
-        const cityHTML =City(city)
-        contentElement.innerHTML+= cityHTML
+        const cityHTML = City(city)
+        contentElement.innerHTML += cityHTML
     }
 }
