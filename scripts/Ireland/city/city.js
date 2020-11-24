@@ -1,4 +1,4 @@
-export const City = (city => {
+export const City = (city) => {
     return `
         <li>${city}</li>`
-})
+}

@@ -1,5 +1,4 @@
 export const Location = (location) => {
     return ` 
-        <li>${location}</li>
-    `
+        <li>${location}</li>`
 }
